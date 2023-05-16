@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados de cliente</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+<body>
+    <h1>Cliente cadastrados</h1>
+    <br>
+    <table>
+        <tr>
+          <th>Nome </th>
+          <th>Idade</th>
+          <th>Cidade</th>
+          <th>Estado</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>Ana Regina</td>
+          <td>29</td>
+          <td>Curitiba</td>
+          <td>Paraná</td>
+          <td>ana@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Fernanda Silva</td>
+          <td>42</td>
+          <td>Joinville</td>
+          <td>Santa Catarina</td>
+          <td>fernanda@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Rodrigo Ferreira</td>
+          <td>70</td>
+          <td>Curitiba</td>
+          <td>Paraná</td>
+          <td>rodrigo@gmail.com</td>
+        </tr>
+      </table>
+      <br>
+      <br>  
+      <fieldset>
+        <legend>Cadastrar novo cliente</legend>
+        <form>
+            <label for="username">Nome:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Idade:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <label for="Cidade">Cidade</label>
+            <input type="cidade" id="cidade" name="cidade" required>
+            <br>
+            <label for="Estado">Estados:</label>
+       <select name="Estado" id="">Estados
+       <option value="Paraná">Paraná</option>
+       <option value="Santa Catarina">Santa Catarina</option>
+       <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+       </select>
+       <br>
+       <label for="Email">E-mail:</label>
+       <input type="email" id="Email" name="Email" required>
+       <br>
+            <button type="reset">Cancelar</button>
+            <button type="submit">Salvar</button>
+          </form>       
+          <br>
+          <br>
+          <br>
+          <br>
+      </fieldset>
+</body>
+</html>
